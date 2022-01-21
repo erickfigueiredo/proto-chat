@@ -1,0 +1,25 @@
+{
+  "name": "proto-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickfigueiredo/proto-chat.git"
+  },
+  "author": "Erick Figueiredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickfigueiredo/proto-chat/issues"
+  },
+  "homepage": "https://github.com/erickfigueiredo/proto-chat#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.1"
+  }
+}
